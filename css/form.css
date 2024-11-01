@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkred;
+    max-width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form h2{
+    text-align: center;
+}
+.input-cont{
+    position: relative;
+}
+.form .form-group .icon{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    cursor: pointer;
+}
+.form .form-group div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.form .form-group input{
+    padding: 6px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
+.font-bold{
+    font-weight: 700;
+}

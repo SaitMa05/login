@@ -1,0 +1,60 @@
+.header{
+    background-color: darkred;
+    font-weight: 400;
+}
+
+.header-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header-cont a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+}
+.nav .LoginNav{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.nav .RegisterNav{
+    padding: 10px 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.nav .LoginNav:hover{
+    background-color: white;
+    color: black;
+}
+.nav .RegisterNav:hover{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: black;
+}
+.nav .cuenta{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav .cuenta a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav .cuenta img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
